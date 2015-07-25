@@ -1,0 +1,22 @@
+{
+  "name": "easy-proxy",
+  "version": "1.0.0",
+  "description": "very easy to do transparent proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liyangready/easyProxy.git"
+  },
+  "keywords": [
+    "proxy"
+  ],
+  "author": "leon.li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liyangready/easyProxy/issues"
+  },
+  "homepage": "https://github.com/liyangready/easyProxy#readme"
+}
