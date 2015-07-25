@@ -39,7 +39,12 @@ console.log("proxy start at 9393");
 
 change system proxy to 127.0.0.1:9393.
 
-it wroks well! 
+
+![](https://raw.githubusercontent.com/liyangready/easy-proxy/master/imgs/screenshoot1.png)
+
+
+![](https://raw.githubusercontent.com/liyangready/easy-proxy/master/imgs/screenshoot2.png)
+it wroks wll! 
 console log:
 <pre>
 $ node demo/test.js
