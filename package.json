@@ -1,5 +1,5 @@
 {
-  "name": "easy-proxy",
+  "name": "mini-proxy",
   "version": "1.0.0",
   "description": "very easy to do transparent proxy",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liyangready/easyProxy.git"
+    "url": "git+https://github.com/liyangready/mini-proxy.git"
   },
   "keywords": [
     "proxy"
@@ -16,7 +16,7 @@
   "author": "leon.li",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/liyangready/easyProxy/issues"
+    "url": "https://github.com/liyangready/mini-proxy/issues"
   },
-  "homepage": "https://github.com/liyangready/easyProxy#readme"
+  "homepage": "https://github.com/liyangready/mini-proxy#readme"
 }

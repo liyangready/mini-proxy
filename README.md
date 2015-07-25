@@ -1,4 +1,4 @@
-# Easy-Proxy
+# mini-proxy
 
 A very mini transparent proxy for http/https by NodeJS.Just like squid.
 
@@ -7,7 +7,7 @@ A very mini transparent proxy for http/https by NodeJS.Just like squid.
 ## Installation
 
 ```bash
-$ npm install easy-proxy
+$ npm install mini-proxy
 ```
 
 ## Features
@@ -22,9 +22,9 @@ $ npm install easy-proxy
 ##Usage
 
 <pre>
-var EasyProxy = require("easy-proxy");
+var MiniProxy = require("mini-proxy");
 
-var myProxy = new EasyProxy({
+var myProxy = new MiniProxy({
 	"port": 9393,
 	"onBeforeRequest": function(requestOptions) {
 		console.log("proxy request :" + requestOptions.host + 
@@ -40,10 +40,10 @@ console.log("proxy start at 9393");
 change system proxy to 127.0.0.1:9393.
 
 
-![](https://raw.githubusercontent.com/liyangready/easy-proxy/master/imgs/screenshoot1.png)
+![](https://raw.githubusercontent.com/liyangready/mini-proxy/master/imgs/screenshoot1.png)
 
 
-![](https://raw.githubusercontent.com/liyangready/easy-proxy/master/imgs/screenshoot2.png)
+![](https://raw.githubusercontent.com/liyangready/mini-proxy/master/imgs/screenshoot2.png)
 it wroks wll! 
 console log:
 <pre>
@@ -56,7 +56,7 @@ proxy request :www.baidu.com
 
 ###Other options
 <pre>
-var myProxy = new EasyProxy({
+var myProxy = new MiniProxy({
 	"port": 9393,
 	"onBeforeRequest": function(requestOptions) {
 	//u can change the request param here

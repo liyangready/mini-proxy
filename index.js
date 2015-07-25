@@ -1,3 +1,3 @@
-var easyProx = require("./lib/easyProxy.js");
+var miniProxy = require("./lib/MiniProxy.js");
 
-module.exports = easyProx;
+module.exports = miniProxy;
