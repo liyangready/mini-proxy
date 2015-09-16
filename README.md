@@ -44,7 +44,7 @@ change system proxy to 127.0.0.1:9393.
 
 
 ![](https://raw.githubusercontent.com/liyangready/mini-proxy/master/imgs/screenshoot2.png)
-it wroks wll! 
+it wroks well! 
 console log:
 <pre>
 $ node demo/test.js
