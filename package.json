@@ -1,6 +1,6 @@
 {
   "name": "mini-proxy",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "very easy to do transparent proxy",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/liyangready/mini-proxy/issues"
   },
-  "homepage": "https://github.com/liyangready/mini-proxy#readme"
+  "homepage": "https://github.com/liyangready/mini-proxy#readme",
+  "dependencies": {
+    "debug": "^4.1.1"
+  }
 }
