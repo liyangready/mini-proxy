@@ -19,7 +19,7 @@ $ npm install mini-proxy
 
 
 
-##Usage
+## Usage
 
 <pre>
 var MiniProxy = require("mini-proxy");
@@ -54,7 +54,7 @@ proxy request :crl.microsoft.com/pki/crl/products/tspca.crl
 proxy request :www.baidu.com
 </pre>
 
-###Other options
+### Other options
 <pre>
 var myProxy = new MiniProxy({
 	"port": 9393,
