@@ -47,7 +47,7 @@ change system proxy to 127.0.0.1:9393.
 it wroks well! 
 console log:
 <pre>
-$ DEBUG=mrpoxy node demo/test.js
+$ DEBUG=mproxy node demo/test.js
 proxy start at 9393
 proxy request :www.microsoft.com/pkiops/crl/MicSecSerCA2011_2011-10-18.crl
 proxy request :crl.microsoft.com/pki/crl/products/tspca.crl
@@ -70,4 +70,4 @@ var myProxy = new MiniProxy({
 });
 </pre>
 
-Use ```DEBUG=mrpoxy``` to open error log.
+Use ```DEBUG=mproxy``` to open error log.
