@@ -1,6 +1,6 @@
 {
   "name": "mini-proxy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "very easy to do transparent proxy",
   "main": "index.js",
   "scripts": {
